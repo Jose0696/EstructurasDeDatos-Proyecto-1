@@ -6,7 +6,41 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/main.cpp
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.h
+ostream
+-
+Person.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Person.h
+
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/List.h
+NodeQueue.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/NodeQueue.h
+
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/NodeQueue.h
+
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Person.h
+ostream
+-
+Utils.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
+
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/QueueList.h
+ostream
+-
+List.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/List.h
+
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
 iostream
 -
+sstream
+-
+string
+-
+
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/main.cpp
+Bank.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.h
+QueueList.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/QueueList.h
 

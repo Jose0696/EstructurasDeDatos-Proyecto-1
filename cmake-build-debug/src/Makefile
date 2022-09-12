@@ -143,6 +143,60 @@ my_project_name_lib/fast:
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/build
 .PHONY : my_project_name_lib/fast
 
+Bank.obj: Bank.cpp.obj
+.PHONY : Bank.obj
+
+# target to build an object file
+Bank.cpp.obj:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Bank.cpp.obj
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Bank.cpp.obj
+.PHONY : Bank.cpp.obj
+
+Bank.i: Bank.cpp.i
+.PHONY : Bank.i
+
+# target to preprocess a source file
+Bank.cpp.i:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Bank.cpp.i
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Bank.cpp.i
+.PHONY : Bank.cpp.i
+
+Bank.s: Bank.cpp.s
+.PHONY : Bank.s
+
+# target to generate assembly for a file
+Bank.cpp.s:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Bank.cpp.s
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Bank.cpp.s
+.PHONY : Bank.cpp.s
+
+Person.obj: Person.cpp.obj
+.PHONY : Person.obj
+
+# target to build an object file
+Person.cpp.obj:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Person.cpp.obj
+.PHONY : Person.cpp.obj
+
+Person.i: Person.cpp.i
+.PHONY : Person.i
+
+# target to preprocess a source file
+Person.cpp.i:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Person.cpp.i
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Person.cpp.i
+.PHONY : Person.cpp.i
+
+Person.s: Person.cpp.s
+.PHONY : Person.s
+
+# target to generate assembly for a file
+Person.cpp.s:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Person.cpp.s
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Person.cpp.s
+.PHONY : Person.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -180,6 +234,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... my_project_name_lib
 	@echo ... my_project_name_run
+	@echo ... Bank.obj
+	@echo ... Bank.i
+	@echo ... Bank.s
+	@echo ... Person.obj
+	@echo ... Person.i
+	@echo ... Person.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
