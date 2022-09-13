@@ -12,6 +12,14 @@ ostream
 Person.h
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Person.h
 
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.h
+Utils.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
+List.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/List.h
+Bank.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.h
+
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/List.h
 NodeQueue.h
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/NodeQueue.h
@@ -37,10 +45,14 @@ sstream
 -
 string
 -
+fstream
+-
 
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/main.cpp
 Bank.h
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.h
 QueueList.h
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/QueueList.h
+FileManager.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.h
 

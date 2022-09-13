@@ -6,12 +6,21 @@ src/CMakeFiles/my_project_name_run.dir/Bank.cpp.obj: \
  ../src/Bank.h \
  ../src/Person.h \
  ../src/Utils.h
+src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj: \
+ ../src/Bank.h \
+ ../src/FileManager.cpp \
+ ../src/FileManager.h \
+ ../src/List.h \
+ ../src/NodeQueue.h \
+ ../src/Person.h \
+ ../src/Utils.h
 src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj: \
  ../src/Person.cpp \
  ../src/Person.h \
  ../src/Utils.h
 src/CMakeFiles/my_project_name_run.dir/main.cpp.obj: \
  ../src/Bank.h \
+ ../src/FileManager.h \
  ../src/List.h \
  ../src/NodeQueue.h \
  ../src/Person.h \

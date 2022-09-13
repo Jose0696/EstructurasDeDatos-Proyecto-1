@@ -79,10 +79,24 @@ src/CMakeFiles/my_project_name_run.dir/Bank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_project_name_run.dir/Bank.cpp.s"
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\src\Bank.cpp -o CMakeFiles\my_project_name_run.dir\Bank.cpp.s
 
+src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj: src/CMakeFiles/my_project_name_run.dir/flags.make
+src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj: src/CMakeFiles/my_project_name_run.dir/includes_CXX.rsp
+src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj: ../src/FileManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj"
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\my_project_name_run.dir\FileManager.cpp.obj -c C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\src\FileManager.cpp
+
+src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_project_name_run.dir/FileManager.cpp.i"
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\src\FileManager.cpp > CMakeFiles\my_project_name_run.dir\FileManager.cpp.i
+
+src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_project_name_run.dir/FileManager.cpp.s"
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\src\FileManager.cpp -o CMakeFiles\my_project_name_run.dir\FileManager.cpp.s
+
 src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj: src/CMakeFiles/my_project_name_run.dir/flags.make
 src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj: src/CMakeFiles/my_project_name_run.dir/includes_CXX.rsp
 src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj: ../src/Person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj"
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\my_project_name_run.dir\Person.cpp.obj -c C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\src\Person.cpp
 
 src/CMakeFiles/my_project_name_run.dir/Person.cpp.i: cmake_force
@@ -96,7 +110,7 @@ src/CMakeFiles/my_project_name_run.dir/Person.cpp.s: cmake_force
 src/CMakeFiles/my_project_name_run.dir/main.cpp.obj: src/CMakeFiles/my_project_name_run.dir/flags.make
 src/CMakeFiles/my_project_name_run.dir/main.cpp.obj: src/CMakeFiles/my_project_name_run.dir/includes_CXX.rsp
 src/CMakeFiles/my_project_name_run.dir/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/my_project_name_run.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/my_project_name_run.dir/main.cpp.obj"
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\my_project_name_run.dir\main.cpp.obj -c C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\src\main.cpp
 
 src/CMakeFiles/my_project_name_run.dir/main.cpp.i: cmake_force
@@ -110,6 +124,7 @@ src/CMakeFiles/my_project_name_run.dir/main.cpp.s: cmake_force
 # Object files for target my_project_name_run
 my_project_name_run_OBJECTS = \
 "CMakeFiles/my_project_name_run.dir/Bank.cpp.obj" \
+"CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj" \
 "CMakeFiles/my_project_name_run.dir/Person.cpp.obj" \
 "CMakeFiles/my_project_name_run.dir/main.cpp.obj"
 
@@ -117,13 +132,14 @@ my_project_name_run_OBJECTS = \
 my_project_name_run_EXTERNAL_OBJECTS =
 
 src/my_project_name_run.exe: src/CMakeFiles/my_project_name_run.dir/Bank.cpp.obj
+src/my_project_name_run.exe: src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj
 src/my_project_name_run.exe: src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj
 src/my_project_name_run.exe: src/CMakeFiles/my_project_name_run.dir/main.cpp.obj
 src/my_project_name_run.exe: src/CMakeFiles/my_project_name_run.dir/build.make
 src/my_project_name_run.exe: src/CMakeFiles/my_project_name_run.dir/linklibs.rsp
 src/my_project_name_run.exe: src/CMakeFiles/my_project_name_run.dir/objects1.rsp
 src/my_project_name_run.exe: src/CMakeFiles/my_project_name_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable my_project_name_run.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable my_project_name_run.exe"
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_project_name_run.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

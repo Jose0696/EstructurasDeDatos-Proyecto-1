@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_project_name_lib.dir/Bank.cpp.obj"
+  "CMakeFiles/my_project_name_lib.dir/FileManager.cpp.obj"
   "CMakeFiles/my_project_name_lib.dir/Person.cpp.obj"
   "CMakeFiles/my_project_name_lib.dir/main.cpp.obj"
   "libmy_project_name_lib.a"

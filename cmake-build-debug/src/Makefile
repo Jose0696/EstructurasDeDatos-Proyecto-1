@@ -170,6 +170,33 @@ Bank.cpp.s:
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Bank.cpp.s
 .PHONY : Bank.cpp.s
 
+FileManager.obj: FileManager.cpp.obj
+.PHONY : FileManager.obj
+
+# target to build an object file
+FileManager.cpp.obj:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/FileManager.cpp.obj
+.PHONY : FileManager.cpp.obj
+
+FileManager.i: FileManager.cpp.i
+.PHONY : FileManager.i
+
+# target to preprocess a source file
+FileManager.cpp.i:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.i
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/FileManager.cpp.i
+.PHONY : FileManager.cpp.i
+
+FileManager.s: FileManager.cpp.s
+.PHONY : FileManager.s
+
+# target to generate assembly for a file
+FileManager.cpp.s:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.s
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/FileManager.cpp.s
+.PHONY : FileManager.cpp.s
+
 Person.obj: Person.cpp.obj
 .PHONY : Person.obj
 
@@ -237,6 +264,9 @@ help:
 	@echo ... Bank.obj
 	@echo ... Bank.i
 	@echo ... Bank.s
+	@echo ... FileManager.obj
+	@echo ... FileManager.i
+	@echo ... FileManager.s
 	@echo ... Person.obj
 	@echo ... Person.i
 	@echo ... Person.s
