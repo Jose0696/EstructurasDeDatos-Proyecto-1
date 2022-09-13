@@ -23,7 +23,7 @@ public:
     void borrar(NodeQueue<E> *referencia);
     void borrarInicio();
     void borrarFinal();
-
+    string toString();
     //friend ostream *operator<<(ostream *os, const NodeQueue<E> *list);
 };
 
@@ -96,6 +96,23 @@ void List<E>::borrarInicio() {
 template<class E>
 void List<E>::borrarFinal() {
     borrar(cola->getAnterior());
+}
+
+template<class E>
+string List<E>::toString() {
+    stringstream ss;
+    NodeQueue<E> *temp = inicio->getSiguiente();
+    if(temp == cola){
+        ss << "Lista vacia!" << endl;
+    }else{
+        //ss << "NULL <->";
+        while (temp != cola){
+            ss << *temp->getDatos() << "\n";
+            temp = temp->getSiguiente();
+        }
+        ss << "\n" << endl;
+    }
+    return ss.str();
 }
 
 /*template <class E>

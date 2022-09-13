@@ -7,6 +7,7 @@
 #include <iostream>
 #include <sstream>
 #include <string>
+#include <fstream>
 
 using namespace std;
 #endif //MY_PROJECT_NAME_UTILS_H
