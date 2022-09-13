@@ -11,69 +11,38 @@ FileManager::~FileManager() {
 
 }
 
-List<Bank> FileManager::loadList(const string &filename) {
-    string tempName, tempId, tempEnterChild,tempIsPregnant,tempIsOlderAdult, tempNewLine;
-    int tempCategory;
+List<Bank> *FileManager::loadList(const string &filename) {
+    List<Bank> *bankList = new List<Bank>;
+    string myTextLine;
+    ifstream myReadFile(filename);
 
-    Bank *tempBank = new Bank;
-    List<Bank> *tempBankList = new List<Bank>;
-
-    string categoryS;
-    std::ifstream in(filename, std::ios::in | std::ios::binary);
-    if(!in.is_open()) {
-        throw std::invalid_argument("Could not open file ["+ filename + "]");
+    if (!myReadFile.is_open()) {
+        throw invalid_argument("Could not open the file [" + filename + "]");
     }
-    if (in) {
-        getline(in, tempName, ',');
-        getline(in, tempId, ',');
-        getline(in, tempEnterChild, ',');
-        getline(in, tempIsPregnant, ',');
-        getline(in, tempIsOlderAdult, ',');
-        getline(in, categoryS,'\n');
-
-        tempCategory = stoi(categoryS);
-        while (!in.eof()) {
-            getline(in, tempName, ',');
-            getline(in, tempId, ',');
-            getline(in, tempEnterChild, ',');
-            getline(in, tempIsPregnant, ',');
-            getline(in, tempIsOlderAdult, ',');
-            getline(in, categoryS,'\n');
-            tempCategory = stoi(categoryS);
-
-            tempBank->setName(tempName);
-            tempBank->setId(tempName);
-            tempBank->setEnterChild(tempName);
-            tempBank->setIsPregnant(tempName);
-            tempBank->setIsOlderAdult(tempName);
-            tempBank->setCategory(tempCategory);
-            tempBankList->agregarInicio(tempBank);
+    int rowCont = 1;
+    while (getline(myReadFile, myTextLine)) {
+        if (rowCont > 0) {
+            Bank *bank = new Bank;
+            stringstream ss(myTextLine);
+            int colCont = 0;
+            while (ss.good()){
+                string substr;
+                int integer = 0;
+                getline(ss, substr, ',');
+                if(colCont == 0) bank->setName(substr);
+                if(colCont == 1) bank->setId(substr);
+                if(colCont == 2) bank->setEnterChild(substr);
+                if(colCont == 3) bank->setIsPregnant(substr);
+                if(colCont == 4) bank->setIsOlderAdult(substr);
+                if(colCont == 5) bank->setCategory(stoi(substr, reinterpret_cast<size_t *>(integer)));
+                colCont ++;
+            }
+            bankList->agregarFinal(bank);
         }
-        in.close();
+        rowCont ++;
     }
-/*    getline(in, tempName, '\r');
-    getline(in, tempNewLine, '\n');
-    while (in.good()){
-        getline(in, tempName, ',');
-        getline(in, tempId, ',');
-        getline(in, tempEnterChild, ',');
-        getline(in, tempIsPregnant, ',');
-        getline(in, tempIsOlderAdult, ',');
-        getline(in, categoryS,'\n');
 
-        tempCategory = stoi(categoryS);
+    myReadFile.close();
 
-        tempBank->setName(tempName);
-        tempBank->setId(tempName);
-        tempBank->setEnterChild(tempName);
-        tempBank->setIsPregnant(tempName);
-        tempBank->setIsOlderAdult(tempName);
-        tempBank->setCategory(tempCategory);
-
-
-        tempBankList->agregarInicio(tempBank);
-    }*/
-
-    List<Bank> *temp(tempBankList);
-    return *temp;
+    return bankList;
 }

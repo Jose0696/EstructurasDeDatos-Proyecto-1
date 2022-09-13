@@ -13,7 +13,7 @@ public:
     FileManager();
     virtual ~FileManager();
 
-    List<Bank> loadList(const string &filename);
+    List<Bank> *loadList(const string &filename);
 };
 
 

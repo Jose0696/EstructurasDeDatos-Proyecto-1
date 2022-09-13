@@ -12,6 +12,10 @@ ostream
 Person.h
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Person.h
 
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.cpp
+FileManager.h
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.h
+
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.h
 Utils.h
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
@@ -32,12 +36,6 @@ ostream
 Utils.h
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
 
-C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/QueueList.h
-ostream
--
-List.h
-C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/List.h
-
 C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
 iostream
 -
@@ -47,12 +45,6 @@ string
 -
 fstream
 -
-
-C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/main.cpp
-Bank.h
-C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.h
-QueueList.h
-C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/QueueList.h
-FileManager.h
-C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.h
+algorithm
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/algorithm
 
