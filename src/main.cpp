@@ -8,6 +8,7 @@ int main() {
     List<Bank> *bank = fileManager->loadList(archivo);
 
     cout << bank->toString();
+    //prueba1
 
     //fileManager->loadList("../../data_files/DatosBanco.txt");
 
