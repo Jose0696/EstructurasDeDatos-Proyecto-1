@@ -8,28 +8,28 @@
 #include <ostream>
 #include "Person.h"
 
-class Bank :public Person{
+class Bank : public Person{
 private:
-    string enterChild;
-    string isPregnant;
-    string isOlderAdult;
+    bool enterChild;
+    bool isPregnant;
+    bool isOlderAdult;
     int category;
 
 public:
-    Bank(const string &name = "", const string &id = "", const string &enterChild = "", const string &isPregnant = "",
-         const string &isOlderAdult = "", int category = 0);
+    Bank(const string &name = "", const string &id = "", bool enterChild = false, bool isPregnant = false,
+         bool isOlderAdult = false, int category = 0);
 
-    const string &getEnterChild() const;
+    bool isEnterChild() const;
 
-    void setEnterChild(const string &enterChild);
+    void setEnterChild(bool enterChild);
 
-    const string &getIsPregnant() const;
+    bool isPregnant1() const;
 
-    void setIsPregnant(const string &isPregnant);
+    void setIsPregnant(bool isPregnant);
 
-    const string &getIsOlderAdult() const;
+    bool isOlderAdult1() const;
 
-    void setIsOlderAdult(const string &isOlderAdult);
+    void setIsOlderAdult(bool isOlderAdult);
 
     int getCategory() const;
 

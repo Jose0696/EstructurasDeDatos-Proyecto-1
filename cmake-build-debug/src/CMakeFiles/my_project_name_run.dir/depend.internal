@@ -10,8 +10,12 @@ src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.h
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.cpp
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.h
- C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/List.h
- C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/NodeQueue.h
+ C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Person.h
+ C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
+src/CMakeFiles/my_project_name_run.dir/Menu.cpp.obj
+ C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.h
+ C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Menu.cpp
+ C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Menu.h
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Person.h
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
 src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj
@@ -20,10 +24,6 @@ src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
 src/CMakeFiles/my_project_name_run.dir/main.cpp.obj
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.h
- C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/FileManager.h
- C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/List.h
- C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/NodeQueue.h
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Person.h
- C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/QueueList.h
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Utils.h
  C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/main.cpp

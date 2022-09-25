@@ -6,7 +6,6 @@
 
 Menu::Menu() {
     bank = new Bank;
-    queueList = new QueueList<Bank>;
 }
 
 void Menu::principalMenu() {

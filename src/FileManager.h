@@ -5,7 +5,6 @@
 #ifndef MY_PROJECT_NAME_FILEMANAGER_H
 #define MY_PROJECT_NAME_FILEMANAGER_H
 #include "Utils.h"
-#include "List.h"
 #include "Bank.h"
 
 class FileManager {
@@ -13,7 +12,7 @@ public:
     FileManager();
     virtual ~FileManager();
 
-    List<Bank> *loadList(const string &filename);
+    //List<Bank> *loadList(const string &filename);
 };
 
 

@@ -11,7 +11,7 @@ FileManager::~FileManager() {
 
 }
 
-List<Bank> *FileManager::loadList(const string &filename) {
+/*List<Bank> *FileManager::loadList(const string &filename) {
     List<Bank> *bankList = new List<Bank>;
     string myTextLine;
     ifstream myReadFile(filename);
@@ -45,4 +45,4 @@ List<Bank> *FileManager::loadList(const string &filename) {
     myReadFile.close();
 
     return bankList;
-}
+}*/

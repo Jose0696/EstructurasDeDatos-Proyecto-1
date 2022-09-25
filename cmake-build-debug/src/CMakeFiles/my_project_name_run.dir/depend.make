@@ -10,8 +10,12 @@ src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.obj: \
  ../src/Bank.h \
  ../src/FileManager.cpp \
  ../src/FileManager.h \
- ../src/List.h \
- ../src/NodeQueue.h \
+ ../src/Person.h \
+ ../src/Utils.h
+src/CMakeFiles/my_project_name_run.dir/Menu.cpp.obj: \
+ ../src/Bank.h \
+ ../src/Menu.cpp \
+ ../src/Menu.h \
  ../src/Person.h \
  ../src/Utils.h
 src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj: \
@@ -20,10 +24,6 @@ src/CMakeFiles/my_project_name_run.dir/Person.cpp.obj: \
  ../src/Utils.h
 src/CMakeFiles/my_project_name_run.dir/main.cpp.obj: \
  ../src/Bank.h \
- ../src/FileManager.h \
- ../src/List.h \
- ../src/NodeQueue.h \
  ../src/Person.h \
- ../src/QueueList.h \
  ../src/Utils.h \
  ../src/main.cpp
