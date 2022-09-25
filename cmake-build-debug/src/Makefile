@@ -197,6 +197,33 @@ FileManager.cpp.s:
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/FileManager.cpp.s
 .PHONY : FileManager.cpp.s
 
+Menu.obj: Menu.cpp.obj
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Menu.cpp.obj
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Menu.cpp.i
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Menu.cpp.s
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
+
 Person.obj: Person.cpp.obj
 .PHONY : Person.obj
 
@@ -267,6 +294,9 @@ help:
 	@echo ... FileManager.obj
 	@echo ... FileManager.i
 	@echo ... FileManager.s
+	@echo ... Menu.obj
+	@echo ... Menu.i
+	@echo ... Menu.s
 	@echo ... Person.obj
 	@echo ... Person.i
 	@echo ... Person.s

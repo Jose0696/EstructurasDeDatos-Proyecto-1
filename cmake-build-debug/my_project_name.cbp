@@ -146,6 +146,14 @@
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
 		</Unit>
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Menu.cpp">
+			<Option target="my_project_name_run"/>
+			<Option target="my_project_name_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Menu.h">
+			<Option target="my_project_name_run"/>
+			<Option target="my_project_name_lib"/>
+		</Unit>
 		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/NodeQueue.h">
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
