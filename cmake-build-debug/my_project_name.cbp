@@ -126,6 +126,14 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/BST.cpp">
+			<Option target="my_project_name_run"/>
+			<Option target="my_project_name_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/BST.h">
+			<Option target="my_project_name_run"/>
+			<Option target="my_project_name_lib"/>
+		</Unit>
 		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Bank.cpp">
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
@@ -142,7 +150,11 @@
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
 		</Unit>
-		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/List.h">
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Heap.cpp">
+			<Option target="my_project_name_run"/>
+			<Option target="my_project_name_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Heap.h">
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
 		</Unit>
@@ -154,7 +166,7 @@
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
 		</Unit>
-		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/NodeQueue.h">
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/Node.h">
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
 		</Unit>
@@ -166,7 +178,11 @@
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
 		</Unit>
-		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/QueueList.h">
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/PriorityQueue.cpp">
+			<Option target="my_project_name_run"/>
+			<Option target="my_project_name_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src/PriorityQueue.h">
 			<Option target="my_project_name_run"/>
 			<Option target="my_project_name_lib"/>
 		</Unit>

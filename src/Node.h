@@ -4,6 +4,7 @@
 
 #ifndef MY_PROJECT_NAME_NODE_H
 #define MY_PROJECT_NAME_NODE_H
+#include "Utils.h"
 
 template<class type>
 class Node{

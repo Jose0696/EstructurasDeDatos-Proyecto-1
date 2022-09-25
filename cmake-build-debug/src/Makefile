@@ -143,6 +143,33 @@ my_project_name_lib/fast:
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/build
 .PHONY : my_project_name_lib/fast
 
+BST.obj: BST.cpp.obj
+.PHONY : BST.obj
+
+# target to build an object file
+BST.cpp.obj:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/BST.cpp.obj
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/BST.cpp.obj
+.PHONY : BST.cpp.obj
+
+BST.i: BST.cpp.i
+.PHONY : BST.i
+
+# target to preprocess a source file
+BST.cpp.i:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/BST.cpp.i
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/BST.cpp.i
+.PHONY : BST.cpp.i
+
+BST.s: BST.cpp.s
+.PHONY : BST.s
+
+# target to generate assembly for a file
+BST.cpp.s:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/BST.cpp.s
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/BST.cpp.s
+.PHONY : BST.cpp.s
+
 Bank.obj: Bank.cpp.obj
 .PHONY : Bank.obj
 
@@ -196,6 +223,33 @@ FileManager.cpp.s:
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/FileManager.cpp.s
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/FileManager.cpp.s
 .PHONY : FileManager.cpp.s
+
+Heap.obj: Heap.cpp.obj
+.PHONY : Heap.obj
+
+# target to build an object file
+Heap.cpp.obj:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Heap.cpp.obj
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Heap.cpp.obj
+.PHONY : Heap.cpp.obj
+
+Heap.i: Heap.cpp.i
+.PHONY : Heap.i
+
+# target to preprocess a source file
+Heap.cpp.i:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Heap.cpp.i
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Heap.cpp.i
+.PHONY : Heap.cpp.i
+
+Heap.s: Heap.cpp.s
+.PHONY : Heap.s
+
+# target to generate assembly for a file
+Heap.cpp.s:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/Heap.cpp.s
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Heap.cpp.s
+.PHONY : Heap.cpp.s
 
 Menu.obj: Menu.cpp.obj
 .PHONY : Menu.obj
@@ -251,6 +305,33 @@ Person.cpp.s:
 	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/Person.cpp.s
 .PHONY : Person.cpp.s
 
+PriorityQueue.obj: PriorityQueue.cpp.obj
+.PHONY : PriorityQueue.obj
+
+# target to build an object file
+PriorityQueue.cpp.obj:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/PriorityQueue.cpp.obj
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/PriorityQueue.cpp.obj
+.PHONY : PriorityQueue.cpp.obj
+
+PriorityQueue.i: PriorityQueue.cpp.i
+.PHONY : PriorityQueue.i
+
+# target to preprocess a source file
+PriorityQueue.cpp.i:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/PriorityQueue.cpp.i
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/PriorityQueue.cpp.i
+.PHONY : PriorityQueue.cpp.i
+
+PriorityQueue.s: PriorityQueue.cpp.s
+.PHONY : PriorityQueue.s
+
+# target to generate assembly for a file
+PriorityQueue.cpp.s:
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_run.dir\build.make src/CMakeFiles/my_project_name_run.dir/PriorityQueue.cpp.s
+	cd /d C:\Users\Jose\CLionProjects\EstructurasDeDatos-Proyecto-1\cmake-build-debug && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\my_project_name_lib.dir\build.make src/CMakeFiles/my_project_name_lib.dir/PriorityQueue.cpp.s
+.PHONY : PriorityQueue.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -288,18 +369,27 @@ help:
 	@echo ... rebuild_cache
 	@echo ... my_project_name_lib
 	@echo ... my_project_name_run
+	@echo ... BST.obj
+	@echo ... BST.i
+	@echo ... BST.s
 	@echo ... Bank.obj
 	@echo ... Bank.i
 	@echo ... Bank.s
 	@echo ... FileManager.obj
 	@echo ... FileManager.i
 	@echo ... FileManager.s
+	@echo ... Heap.obj
+	@echo ... Heap.i
+	@echo ... Heap.s
 	@echo ... Menu.obj
 	@echo ... Menu.i
 	@echo ... Menu.s
 	@echo ... Person.obj
 	@echo ... Person.i
 	@echo ... Person.s
+	@echo ... PriorityQueue.obj
+	@echo ... PriorityQueue.i
+	@echo ... PriorityQueue.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
