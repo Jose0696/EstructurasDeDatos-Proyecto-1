@@ -6,9 +6,8 @@
 #define MY_PROJECT_NAME_UTILS_H
 #include <iostream>
 #include <sstream>
-#include <string>
+#include <ostream>
 #include <fstream>
-#include "algorithm"
 
 using namespace std;
 #endif //MY_PROJECT_NAME_UTILS_H

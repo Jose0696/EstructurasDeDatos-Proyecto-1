@@ -4,7 +4,7 @@
 
 #ifndef MY_PROJECT_NAME_BST_H
 #define MY_PROJECT_NAME_BST_H
-#include "Node.h"
+#include "Node.cpp"
 #include "PriorityQueue.h"
 
 template <class type>
@@ -24,7 +24,7 @@ public:
     virtual ~BST();
     void insert(type *t);
     void remove(int x);
-    void encolarEnCola(PriorityQueue<T>* cola);
+    void encolarEnCola(PriorityQueue<type>* cola);
     type* search(string t);
     int getCant();
     string toString(Node<type>* t);

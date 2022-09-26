@@ -5,14 +5,19 @@
 #ifndef MY_PROJECT_NAME_FILEMANAGER_H
 #define MY_PROJECT_NAME_FILEMANAGER_H
 #include "Utils.h"
-#include "Bank.h"
+#include "BST.cpp"
+#include "RuntimeException.h"
 
+template <class type>
 class FileManager {
 public:
-    FileManager();
-    virtual ~FileManager();
-
-    //List<Bank> *loadList(const string &filename);
+private:
+    type *t;
+    string myTextLine;
+    fstream myReadFile;
+public:
+    FileManager(const string &file);
+    void loadList(BST<type>* tree);
 };
 
 

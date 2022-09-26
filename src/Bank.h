@@ -4,38 +4,13 @@
 
 #ifndef MY_PROJECT_NAME_BANK_H
 #define MY_PROJECT_NAME_BANK_H
+#include "FileManager.cpp"
+#include "PriorityQueue.cpp"
 
-#include <ostream>
-#include "Person.h"
-
-class Bank : public Person{
-private:
-    bool enterChild;
-    bool isPregnant;
-    bool isOlderAdult;
-    int category;
-
+class Bank {
 public:
-    Bank(const string &name = "", const string &id = "", bool enterChild = false, bool isPregnant = false,
-         bool isOlderAdult = false, int category = 0);
+    static void infoCliente(Customer bank);
 
-    bool isEnterChild() const;
-
-    void setEnterChild(bool enterChild);
-
-    bool isPregnant1() const;
-
-    void setIsPregnant(bool isPregnant);
-
-    bool isOlderAdult1() const;
-
-    void setIsOlderAdult(bool isOlderAdult);
-
-    int getCategory() const;
-
-    void setCategory(int category);
-
-    friend ostream &operator<<(ostream &os, const Bank &bank);
 };
 
 

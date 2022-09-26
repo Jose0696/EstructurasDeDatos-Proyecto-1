@@ -8,12 +8,12 @@
 
 class Menu {
 private:
-    Bank *bank = new Bank;
-
+    FileManager<Customer>* file;
+    BST<Customer>* bst;
+    PriorityQueue<Customer>* priorityQueue;
 public:
     Menu();
     void principalMenu();
-    ~Menu();
 };
 
 

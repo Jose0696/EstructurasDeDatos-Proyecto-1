@@ -4,45 +4,42 @@
 
 #include "FileManager.h"
 
-FileManager::FileManager() {
+template <class type>
+FileManager<type>::FileManager(const string &file) : myTextLine(file) {
+    t = new type;
 }
 
-FileManager::~FileManager() {
+template <class type>
+void FileManager<type>::loadList(BST<type>* tree) {
+    Customer *bank;
+    string line, name, id;
+    bool child, pregnant, elderly;
+    int category;
+    myReadFile.open(myTextLine);
 
-}
-
-/*List<Bank> *FileManager::loadList(const string &filename) {
-    List<Bank> *bankList = new List<Bank>;
-    string myTextLine;
-    ifstream myReadFile(filename);
-
-    if (!myReadFile.is_open()) {
-        throw invalid_argument("Could not open the file [" + filename + "]");
+    if (myReadFile.fail()) {
+        throw new FileException("Error: File opening failed");
+        exit(1);
     }
-    int rowCont = 1;
-    while (getline(myReadFile, myTextLine)) {
-        if (rowCont > 0) {
-            Bank *bank = new Bank;
-            stringstream ss(myTextLine);
-            int colCont = 0;
-            while (ss.good()){
-                string substr;
-                int integer = 0;
-                getline(ss, substr, ',');
-                if(colCont == 0) bank->setName(substr);
-                if(colCont == 1) bank->setId(substr);
-                if(colCont == 2) bank->setEnterChild(substr);
-                if(colCont == 3) bank->setIsPregnant(substr);
-                if(colCont == 4) bank->setIsOlderAdult(substr);
-                if(colCont == 5) bank->setCategory(stoi(substr, reinterpret_cast<size_t *>(integer)));
-                colCont ++;
-            }
-            bankList->agregarFinal(bank);
+    try {
+        while (!myReadFile.eof()) {
+            getline(myReadFile, line, ',');
+            name = line;
+            getline(myReadFile, line, ',');
+            id = line;
+            getline(myReadFile, line, ',');
+            line == "Yes" ? child = 1 : child = 0;
+            getline(myReadFile, line, ',');
+            line == "Yes" ? pregnant = 1 : pregnant = 0;
+            getline(myReadFile, line, ',');
+            line == "Yes" ? elderly = 1 : elderly = 0;
+            getline(myReadFile, line);
+            category = stoi(line);
+            bank = new Customer(name, id, child, pregnant, elderly, category);
+            tree->insert(bank);
         }
-        rowCont ++;
+        myReadFile.close();
+    }catch(invalid_argument e){
+        cout<<e.what()<<endl;
     }
-
-    myReadFile.close();
-
-    return bankList;
-}*/
+}
