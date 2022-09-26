@@ -19,6 +19,7 @@ public:
     void serveToFiveCustomers();
     void showNextCustomer();
     void simulationCustomersAtt();
+    void addNewCostumer();
 };
 
 

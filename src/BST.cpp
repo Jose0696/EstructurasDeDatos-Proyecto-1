@@ -29,7 +29,7 @@ Node<type>* BST<type>::makeEmpty(Node<type> *t) {
 
 template <class type>
 Node<type>* BST<type>::insert(type *x, Node<type> *t) {
-    if (t == nullptr) {
+     if (t == nullptr) {
         t = new Node<type>(x);
     } else if (x->getID() < t->getData()->getID())
         t->setLeft(insert(x, t->getLeft()));
@@ -62,9 +62,22 @@ template <class type>
 void BST<type>::inOrder(PriorityQueue<type>* cola, Node<type>* t) {
     if (t == nullptr)
         return;
+
     inOrder(cola,t->getLeft());
     cola->push(*t->getData());
     inOrder(cola,t->getRight());
+
+
+//    if (t == nullptr)
+//        return nullptr;
+//    else if (x < t->getData()->getID())
+//        return find(t->getLeft(), x);
+//    else if (x > t->getData()->getID())
+//        return find(t->getRight(), x);
+//    else if(x == t->getData()->getID())
+//        return t;
+//    else
+//        return nullptr;
 }
 
 template <class type>

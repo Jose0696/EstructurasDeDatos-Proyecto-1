@@ -51,3 +51,23 @@ ostream &operator<<(ostream &os, const Customer &customer) {
     os << "\nCategory: " << customer.category;
     return os;
 }
+
+string Customer::toSave() {
+    stringstream s;
+    s<<name+","+id+",";child?s<<"Yes,":s<<"No,"; pregnant?s<<"Yes,":s<<"No,"; elderly?s<<"Yes,":s<<"No,"; s<<category;
+    return s.str();
+}
+
+int Customer::getPorcentajeInfluencia(){
+    int porcentaje=0;
+    child?porcentaje+=20:porcentaje+=0;
+    pregnant?porcentaje+=25:porcentaje+=0;
+    elderly?porcentaje+=35:porcentaje+=0;
+    if(category==1) porcentaje+=20;
+    else if(category==2) porcentaje+=10;
+    return porcentaje;
+}
+
+bool Customer::operator<(Customer c) {
+    return getPorcentajeInfluencia() < c.getPorcentajeInfluencia();
+}

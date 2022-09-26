@@ -41,7 +41,7 @@ void Menu::principalMenu() {
                 simulationCustomersAtt();
                 break;
             case 6:
-
+                addNewCostumer();
                 break;
             case 7:
                 cout<<"Thank you"<<endl;
@@ -137,5 +137,13 @@ void Menu::simulationCustomersAtt() {
         else throw new QueueException("Error: Empty queue");
     }catch (RuntimeException* e){
         cout << e->getMessage() <<endl;
+    }
+}
+
+void Menu::addNewCostumer() {
+    Customer* cust = Bank::addClient();
+    if(cust != nullptr) {
+        bst->insert(cust);
+        file->save(cust->toSave());
     }
 }

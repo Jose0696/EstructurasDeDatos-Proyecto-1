@@ -42,3 +42,15 @@ void FileManager<type>::loadList(BST<type>* tree) {
         cout<<e.what()<<endl;
     }
 }
+
+template<class T>
+void FileManager<T>::save(string info) {
+    myReadFile.open(myTextLine, ios::app);
+    if (myReadFile.fail()) {
+        throw new FileException("Error: File saving failed");
+        exit(1);
+    } else
+        myReadFile << endl << info;
+
+    myReadFile.close();
+}

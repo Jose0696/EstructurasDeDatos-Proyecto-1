@@ -28,8 +28,11 @@ public:
     bool isElderly()const;
     int getCategory()const;
     void setCategory(int category);
+    int getPorcentajeInfluencia();
 
     friend ostream &operator<<(ostream &os, const Customer &customer);
+    string toSave();
+    bool operator<(Customer c);
 };
 
 

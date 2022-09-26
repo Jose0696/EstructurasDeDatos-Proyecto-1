@@ -76,14 +76,14 @@ void Heap<type>::deleteKey(int i) {
 
 template<class type>
 void Heap<type>::insertKey(type *k) {
-    if(getSize()==capacity){
+    if(heap_size==capacity){
         throw new RuntimeException(" Overflow: Could not push key");
         return;
     }
     heap_size++;
     int i = heap_size;
     arr[i]=k;
-    while (i!=0&&arr[i]>arr[parent(i)]){
+    while (i != 0 && arr[parent(i)] > arr[i]){
         swap(&arr[i],&arr[parent(i)]);
         i= parent(i);
     }

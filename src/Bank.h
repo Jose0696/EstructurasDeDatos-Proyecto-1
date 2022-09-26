@@ -10,6 +10,7 @@
 class Bank {
 public:
     static void customerInfo(const Customer& bank);
+    static Customer* addClient();
 
 };
 

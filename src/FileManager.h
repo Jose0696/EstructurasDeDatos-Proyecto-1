@@ -18,6 +18,7 @@ private:
 public:
     FileManager(const string &file);
     void loadList(BST<type>* tree);
+    void save(string info);
 };
 
 
