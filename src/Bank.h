@@ -9,7 +9,7 @@
 
 class Bank {
 public:
-    static void infoCliente(Customer bank);
+    static void customerInfo(const Customer& bank);
 
 };
 

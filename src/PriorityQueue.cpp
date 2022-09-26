@@ -52,7 +52,7 @@ int PriorityQueue<type>::getCapacity() const {
 template<typename type>
 string PriorityQueue<type>::toString() {
     stringstream s;
-    s<<"Clientes en cola: "<<endl;
+    s<<"Customers in queue: "<<endl;
     for(int i=0;i< T->getSize(); i++)
         s <<i<<": "<< T->get(i)->toString() << endl;
     return s.str();

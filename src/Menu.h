@@ -14,6 +14,11 @@ private:
 public:
     Menu();
     void principalMenu();
+    void queueAllCustomers();
+    void queueCustomer();
+    void serveToFiveCustomers();
+    void showNextCustomer();
+    void simulationCustomersAtt();
 };
 
 

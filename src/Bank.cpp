@@ -4,6 +4,6 @@
 
 #include "Bank.h"
 
-void Bank::infoCliente(Customer client) {
-    cout << client << endl;
+void Bank::customerInfo(const Customer& bank) {
+    cout << bank << endl;
 }

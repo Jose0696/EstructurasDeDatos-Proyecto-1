@@ -19,7 +19,6 @@ void FileManager<type>::loadList(BST<type>* tree) {
 
     if (myReadFile.fail()) {
         throw new FileException("Error: File opening failed");
-        exit(1);
     }
     try {
         while (!myReadFile.eof()) {
@@ -28,11 +27,11 @@ void FileManager<type>::loadList(BST<type>* tree) {
             getline(myReadFile, line, ',');
             id = line;
             getline(myReadFile, line, ',');
-            line == "Yes" ? child = 1 : child = 0;
+            line == "Yes" ? child = true : child = false;
             getline(myReadFile, line, ',');
-            line == "Yes" ? pregnant = 1 : pregnant = 0;
+            line == "Yes" ? pregnant = true : pregnant = false;
             getline(myReadFile, line, ',');
-            line == "Yes" ? elderly = 1 : elderly = 0;
+            line == "Yes" ? elderly = true : elderly = false;
             getline(myReadFile, line);
             category = stoi(line);
             bank = new Customer(name, id, child, pregnant, elderly, category);
