@@ -1,9 +1,11 @@
 {
-	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "src/libmy_project_name_lib.a"
+			"path" : "src/my_project_name_run.exe"
+		},
+		{
+			"path" : "src/my_project_name_run.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -11,7 +13,7 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"include_directories"
 		],
 		"files" : 
@@ -27,7 +29,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
@@ -57,7 +59,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1/src"
+					"path" : "C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/src"
 				}
 			],
 			"language" : "CXX",
@@ -84,9 +86,28 @@
 			]
 		}
 	],
-	"id" : "my_project_name_lib::@145eef247bfb46b6828c",
-	"name" : "my_project_name_lib",
-	"nameOnDisk" : "libmy_project_name_lib.a",
+	"id" : "my_project_name_run::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "my_project_name_run",
+	"nameOnDisk" : "my_project_name_run.exe",
 	"paths" : 
 	{
 		"build" : "src",
@@ -240,5 +261,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "EXECUTABLE"
 }

@@ -10,7 +10,6 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -20,7 +19,6 @@
 				},
 				{
 					"build" : "src",
-					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
@@ -57,14 +55,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "my_project_name_lib::@145eef247bfb46b6828c",
-					"jsonFile" : "target-my_project_name_lib-Debug-59e3f8b152f01decc817.json",
+					"jsonFile" : "target-my_project_name_lib-Debug-f25d179fb3f4c3c6d5a2.json",
 					"name" : "my_project_name_lib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "my_project_name_run::@145eef247bfb46b6828c",
-					"jsonFile" : "target-my_project_name_run-Debug-76845b47f47d18d86b1c.json",
+					"jsonFile" : "target-my_project_name_run-Debug-f9c3de266fd21f757029.json",
 					"name" : "my_project_name_run",
 					"projectIndex" : 0
 				}
@@ -74,12 +72,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug",
-		"source" : "C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1"
+		"build" : "C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug",
+		"source" : "C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 2
 	}
 }

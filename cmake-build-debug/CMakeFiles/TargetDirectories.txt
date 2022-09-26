@@ -1,6 +1,6 @@
-C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/src/CMakeFiles/my_project_name_run.dir
-C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/src/CMakeFiles/my_project_name_lib.dir
-C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-C:/Users/mmelr/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/src/CMakeFiles/my_project_name_run.dir
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/src/CMakeFiles/my_project_name_lib.dir
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/Jose/CLionProjects/EstructurasDeDatos-Proyecto-1/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
