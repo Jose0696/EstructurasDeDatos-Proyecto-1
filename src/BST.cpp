@@ -163,6 +163,6 @@ string BST<type>::gArchivo(Node<type> *t) {
 }
 
 template<class type>
-void BST<type>::encolarEnCola(PriorityQueue<type> *cola) {
+void BST<type>::enqueue(PriorityQueue<type> *cola) {
     inOrder(cola, root);
 }

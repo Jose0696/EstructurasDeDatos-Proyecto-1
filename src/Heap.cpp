@@ -16,14 +16,14 @@ void Heap<type>::MaxHeapify(int i) {
     int l = left(i);
     int r = right(i);
     int largest = i;
-    if(arr[i]<arr[left(i)]||arr[i]<arr[right(i)]){
-        if(arr[left(i)]>arr[right(i)]){
-            swap(&arr[i],&arr[left(i)]);
-            MaxHeapify(left(i));
+    if(arr[largest]<arr[l] || arr[largest]<arr[r]){
+        if(arr[l]>arr[r]){
+            swap(&arr[largest],&arr[l]);
+            MaxHeapify(l);
         }
         else{
-            swap(&arr[i], &arr[right(i)]);
-            MaxHeapify(right(i));
+            swap(&arr[largest], &arr[r]);
+            MaxHeapify(r);
         }
     }
 }
@@ -83,7 +83,7 @@ void Heap<type>::insertKey(type *k) {
     heap_size++;
     int i = heap_size;
     arr[i]=k;
-    while (i != 0 && arr[parent(i)] > arr[i]){
+    while (i != 0 && *(arr[parent(i)]) < *(arr[i])){
         swap(&arr[i],&arr[parent(i)]);
         i= parent(i);
     }

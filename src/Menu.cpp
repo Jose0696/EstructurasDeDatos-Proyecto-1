@@ -12,17 +12,21 @@ Menu::Menu() {
 }
 
 void Menu::principalMenu() {
+    try{
     file->loadList(bst);
+    }catch (FileException* e){
+        cout<<e->getMessage()<<endl;
+    }
     int opc;
     do {
-        cout << "1- Encolar todos los clientes" << endl;
-        cout << "2- Encolar un cliente" << endl;
-        cout << "3- Atender los siguientes 5 clientes" << endl;
-        cout << "4- Mostrar el siguiente cliente a ser atendido" << endl;
-        cout << "5- Simulacion de atencion de clientes" << endl;
-        cout << "6- Agregar un cliente nuevo" << endl;
-        cout << "7- Salir" << endl;
-        cout << "Ingrese una opcion:";
+        cout << "1- Queue all clients" << endl;
+        cout << "2- Queue a client" << endl;
+        cout << "3- Serve the next 5 customers" << endl;
+        cout << "4- Show the next customer to be served" << endl;
+        cout << "5- Simulation of customer service" << endl;
+        cout << "6- Add a new customer" << endl;
+        cout << "7- Exit" << endl;
+        cout << "Please enter an option:";
         cin >> opc;
         switch (opc) {
             case 1:
@@ -44,7 +48,7 @@ void Menu::principalMenu() {
                 addNewCostumer();
                 break;
             case 7:
-                cout<<"Thank you"<<endl;
+                cout<<"Thank you :)"<<endl;
                 break;
             default:
                 cout<<"Invalidate Option..."<<endl;
@@ -55,7 +59,7 @@ void Menu::principalMenu() {
 
 void Menu::queueAllCustomers() {
     try {
-        bst->encolarEnCola(priorityQueue);
+        bst->enqueue(priorityQueue);
         cout<<"All customers have been saved in the queue"<<endl<<endl;
         system("pause");
     }catch (RuntimeException* e){cout<<e->getMessage()<<endl;}
@@ -87,7 +91,9 @@ void Menu::serveToFiveCustomers() {
     try{
         if(!priorityQueue->empty())
             if(priorityQueue->size() >= 5) {
+                int count = 1;
                 for (int i = 0; i < 5; i++) {
+                    cout <<"Number: " << count << endl;
                     cout<<"Customer Information"<<endl;
                     Bank::customerInfo(priorityQueue->max());
                     system("pause");
@@ -95,6 +101,7 @@ void Menu::serveToFiveCustomers() {
                     cout<<"#####Serviced#####";
                     cout << "\n---------------------" <<endl<<endl;
                     priorityQueue->pop();
+                    count ++;
                 }
             }else throw new QueueException("Error: There is no 5 clients in queue");
         else throw new QueueException("Error: Empty queue");
@@ -124,7 +131,9 @@ void Menu::showNextCustomer() {
 void Menu::simulationCustomersAtt() {
     try{
         if(!priorityQueue->empty()){
+            int i = 1;
             while (!priorityQueue->empty()){
+                cout << "Number: " << i << endl;
                 cout<<"Customer Information"<<endl;
                 Bank::customerInfo(priorityQueue->max());
                 system("pause");
@@ -132,6 +141,7 @@ void Menu::simulationCustomersAtt() {
                 cout<<"#####Serviced#####";
                 cout << "\n---------------------" <<endl<<endl;
                 priorityQueue->pop();
+                i++;
             }
         }
         else throw new QueueException("Error: Empty queue");

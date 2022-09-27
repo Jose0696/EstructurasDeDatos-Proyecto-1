@@ -28,7 +28,7 @@ public:
     bool isElderly()const;
     int getCategory()const;
     void setCategory(int category);
-    int getPorcentajeInfluencia();
+    int influencePercent();
 
     friend ostream &operator<<(ostream &os, const Customer &customer);
     string toSave();

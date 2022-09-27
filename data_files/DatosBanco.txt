@@ -98,4 +98,3 @@ Ryan Jacobs,1669080636499,No,No,No,1
 Tyler Williams,1682033077699,Yes,No,No,3
 Burton Marsh,1632042264099,Yes,Yes,Yes,2
 Merritt Odonnell,1610100503099,No,No,No,1
-ema,123,Yes,Yes,Yes,3

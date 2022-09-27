@@ -24,7 +24,7 @@ public:
     virtual ~BST();
     void insert(type *t);
     void remove(int x);
-    void encolarEnCola(PriorityQueue<type>* cola);
+    void enqueue(PriorityQueue<type>* cola);
     type* search(string t);
     int getCant();
     string toString(Node<type>* t);

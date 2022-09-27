@@ -11,7 +11,7 @@ FileManager<type>::FileManager(const string &file) : myTextLine(file) {
 
 template <class type>
 void FileManager<type>::loadList(BST<type>* tree) {
-    Customer *bank;
+    Customer *customer;
     string line, name, id;
     bool child, pregnant, elderly;
     int category;
@@ -34,8 +34,8 @@ void FileManager<type>::loadList(BST<type>* tree) {
             line == "Yes" ? elderly = true : elderly = false;
             getline(myReadFile, line);
             category = stoi(line);
-            bank = new Customer(name, id, child, pregnant, elderly, category);
-            tree->insert(bank);
+            customer = new Customer(name, id, child, pregnant, elderly, category);
+            tree->insert(customer);
         }
         myReadFile.close();
     }catch(invalid_argument e){

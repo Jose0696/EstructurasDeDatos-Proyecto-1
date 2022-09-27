@@ -48,7 +48,14 @@ ostream &operator<<(ostream &os, const Customer &customer) {
     os << "\nChild: ";  customer.child? os<< "Yes": os<< "No";
     os << "\nIs Pregnant: "; customer.pregnant? os<< "Yes": os<< "No";
     os << "\nIs Elderly: "; customer.elderly? os<< "Yes": os<< "No";
-    os << "\nCategory: " << customer.category;
+    os << "\nCategory: ";
+    if(customer.category == 1){
+      os << "Premium";
+    }else if(customer.category == 2){
+        os << "Gold";
+    }else{
+        os << "Normal";
+    }
     return os;
 }
 
@@ -58,7 +65,7 @@ string Customer::toSave() {
     return s.str();
 }
 
-int Customer::getPorcentajeInfluencia(){
+int Customer::influencePercent(){
     int porcentaje=0;
     child?porcentaje+=20:porcentaje+=0;
     pregnant?porcentaje+=25:porcentaje+=0;
@@ -69,5 +76,5 @@ int Customer::getPorcentajeInfluencia(){
 }
 
 bool Customer::operator<(Customer c) {
-    return getPorcentajeInfluencia() < c.getPorcentajeInfluencia();
+    return influencePercent() < c.influencePercent();
 }
